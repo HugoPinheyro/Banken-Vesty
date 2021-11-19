@@ -1,0 +1,606 @@
+@charset "UTF-8";
+
+body{
+  background-color:#ddd;
+}
+
+/*=====================================================================*/
+
+
+#interface{
+
+}
+
+
+
+
+.cabyimg  {
+  margin: 0px;
+
+  height:500px;
+  margin-bottom: 55px;
+}
+
+.cabyimg img  {
+  overflow: hidden;
+  width: 1322px;
+ height: 550px;
+
+}
+
+
+
+/*=====================================================================*/
+/*==============================Navbar=menu================================*/
+
+nav#navbar {
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position:relative;
+  border:1px solid #010101;
+  background-color: #000000;
+  color: #010101;
+  width: 1329px;
+  height: 100px;
+  margin-right:-20px;
+  margin-top:-22px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+}
+
+nav#navbar li {
+  text-transform:capitalize;
+  padding: 7px;
+  margin: 5px;
+  list-style: none;
+  display: inline-block;
+  margin-top:25px;
+  background-color: #000;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border:2px solid #ccc;
+  border-radius: 13px;
+
+}
+
+
+nav#navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-style:normal;
+}
+
+nav#navbar li:hover {
+  background-color:#002233;
+
+}
+
+
+
+
+.divnav input[type=text] {
+  width: 170px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('_imagens/search.png');
+  background-repeat: no-repeat;
+  padding: 8px 8px 8px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-top: -58px;
+  margin-right:70px;
+  float: right;
+  outline: inherit;
+
+}
+
+input[type=text]:focus {
+    width: 25%;
+    border: 2px solid #ccc;
+
+
+}
+
+.divnav button {
+  margin: 0px;
+  background-color: #ffffff;
+  width: 50px;
+  height: 26px;
+  margin-left: 1260px;
+  margin-top: -58px;
+  padding: 17px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.imgicon img {
+   margin: 0px;
+   width: 37px;
+   height: 32px;
+   margin-top: -17px;
+   margin-left: -8px;
+   position: static;
+}
+
+
+.divnav button:hover {
+  background-color:#002233;
+}
+
+
+/*===========================hr====================================*/
+
+.hrbarra {
+  margin: 0px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  background-color: grey;
+}
+/*===============================================================*/
+/*=========================Parte1=bloco==============================*/
+.part1 {
+  overflow: hidden;
+  padding: 70px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+
+}
+.tesouro {
+  overflow: hidden;
+  width: 250px;
+  height:120px;
+  margin: 0px;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 3px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+.tesouro p {
+   text-align: center;
+   color:#0088cc;
+   text-decoration:none;
+   font-weight: bold;
+}
+.tesouro a {
+  text-decoration: none;
+}
+.tesouro h4 {
+}
+
+.tesouro:hover,.tesouro2:hover,.tesouro3:hover {
+ background-color: #f2f2f2;
+ -ms-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
+
+
+
+.tesouro2 {
+  width: 250px;
+  height:120px;
+  margin: 0px;
+  margin-left:460px;
+  margin-top: -160px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 3px rgba(0,0,0,0.2);
+}
+
+.tesouro2 p {
+   padding: 15px;
+   text-align:center;
+   color:#0088cc;
+   font-weight: bold;
+}
+.tesouro2 a {
+  text-decoration: none;
+}
+.tesouro2 h4 {
+      margin-top: -10px;
+}
+
+.tesouro3 {
+  width: 250px;
+  height:120px;
+  margin-left:880px;
+  margin-top: -140px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 3px rgba(0,0,0,0.2);
+}
+.tesouro3 p {
+   text-align: center;
+   color:#0088cc;
+   padding: 15px;
+   font-weight: bold;
+}
+.tesouro3 a {
+  text-decoration: none;
+}
+.tesouro3 h4 {
+    margin-top: -10px;
+}
+/*=================================================================*/
+/*=========================Parte2===listmennu===============================*/
+
+.part2 {
+  overflow: hidden;
+  padding: 70px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  text-decoration: none;
+}
+
+.sideh  {
+ margin-left: 50px;
+ text-decoration: none;
+}
+
+.sidei {
+  margin-left: 360px;
+  margin-top: -102px;
+}
+.sidex {
+  margin-left: 720px;
+  margin-top: -102px;
+}
+
+.sidey {
+  margin-left: 1040px;
+  margin-top: -102px;
+}
+
+.sideh a,.sidei a,.sidex a,.sidey a {
+  text-decoration: none;
+}
+
+
+/*========================LOGIN====Cadastro==================================*/
+/*========================LOGIN====Cadastro==================================*/
+
+.contaresgt {
+  padding: 100px;
+margin:10px;
+  height: 400px;
+  overflow:hidden;
+  margin-left: 780px;
+  margin-top: -605px;
+  border: 1px solid #0088cc;
+  position:static;
+
+
+
+}
+
+ .container {
+
+}
+
+.container button {
+  padding: 10px;
+  margin-top:-5px;
+}
+
+ .container p {
+   margin-top: -10px;
+}
+
+.container h1 {
+  margin: 5px;
+  margin-left: -4px;
+}
+
+ .container label {
+  margin: 0px;
+
+}
+
+.container, .signin p {
+  margin: 0px;
+  padding: 2px;
+  position: relative;
+
+}
+
+.container input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:#ddd;
+}
+
+.container input[type=text]:focus, input[Type=password]:focus {
+  background-color: #ddd;
+  outline: #f1f1f1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color:#4caf50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+   opacity: 1;
+
+}
+
+a {
+  color:dodgerblue;
+}
+
+.signin  {
+  background-color: #f1f1f1;
+  text-align: center;
+  overflow: hidden;
+}
+/*=========================WebkitCabecalho====Bankenvesty=========================*/
+
+ #caixahp {
+  position: absolute;
+  margin: 0px;
+  margin-top: -470px;
+  margin-bottom: 350px;
+  margin-left:170px;
+}
+
+#caixahp h1{
+   color:#ccc;
+   font-size: 80px;
+}
+
+#myDIV {
+  background-color: #fff;
+  -webkit-Animation:mymove 5s infinite;
+  animation: mymove 5s infinite;
+   border-radius: 5px;
+}
+
+@-webkit-keyframes mymove{
+   50%{margin: 50px;}
+}
+
+@@keyframes  mymove {
+  50% {margin: 50px;}
+}
+
+.part4 {
+  padding: 100px;
+  background-color: #fff;
+  border: 2px solid grey;
+  overflow: hidden;
+
+
+}
+
+.negocy {
+       margin-left:-100px;
+       margin-top: -100px;
+       width:1321px;
+       height:670px;
+       margin-bottom: -102px;
+       overflow: hidden;
+
+
+
+
+}
+
+
+#grafic {
+}
+
+/*=============================footer=======================================*/
+footer {
+  background-color:#2e3038;
+  width: 100%;
+  height: 50%;
+  overflow:hidden;
+}
+/*=========================footer===Contatos==================================*/
+ .contato {
+  width: 207px;
+  height: 270px;
+}
+
+.contato h3 {
+  overflow: hidden;
+  font-size:19px;
+  font-family: oblique;
+  color: #0088cc;
+   margin-left: 20px;
+}
+
+.contato a {
+  color: #6e6e6e;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.contato a:hover {
+  color: #0088ec;
+}
+
+.contato p {
+  margin: 15px;
+  margin-left: 20px;
+  color: #ccc;
+}
+/*============================footer====Sobre-Nos======================================*/
+.sobre {
+  width: 100px;
+  height: 200px;
+  margin: 0px;
+  margin-left: 225px;
+  margin-top:-267px;
+}
+.sobre  h3 {
+  overflow: hidden;
+  padding: 0px;
+  color: #0088cc;
+}
+.sobre a {
+  overflow: hidden;
+  text-decoration: none;
+  color: #6e6e6e;
+}
+.sobre a:hover {
+  color: #0088cc;
+}
+/*============================footer=====Bancos=====================================*/
+
+.banco {
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+  margin-left: 433px;
+  margin-top:-217px;
+}
+
+.banco h3 {
+  overflow: hidden;
+  color: #0088cc;
+}
+.banco a{
+   text-decoration: none;
+   color: #6e6e6e;
+}
+
+.banco a:hover {
+  color: #0088cc;
+}
+.banco p {
+  overflow: hidden;
+  color: #ccc;
+
+}
+/*============================hrfooter= supot==================================*/
+ .supot {
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+  margin-left: 600px;
+  margin-top: -200px;
+  overflow: hidden;
+
+ }
+
+.supot h3 {
+   margin: 0px;
+   color: #0088cc;
+}
+
+.supot a {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+.supot  a:hover {
+  color: #0088cc;
+}
+/*=====================================*/
+
+
+.socialicon {
+  margin: 0px;
+   margin-top: -45px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 20px;
+  border-radius: 200px;
+}
+
+.socialicon a {
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: #ccc;
+  font-size: 20px;
+  border-radius: 100px;
+
+
+}
+
+.socialicon a:hover {
+  background-color: #0073e6;
+}
+
+.facebook {
+  background: #000;
+  color: white;
+
+}
+
+.twitter {
+  background: #000;
+  color: white;
+}
+
+.google {
+  background: #000;
+  color: white;
+}
+
+.linkedin {
+  background: #000;
+  color: white;
+}
+
+.youtube {
+  background: #000;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/*=============================logoimg===h2======================================*/
+
+.log,.h2 {
+  overflow: hidden;
+  margin-left: 900px;
+  margin-top:-205px;
+  color: #ccc;
+}
+
+/*=============================Copyrigh-text=========================================*/
+
+ .copy p {
+   text-shadow: 5px 5px solid #880000;
+   margin: 0px;
+  margin-top: -3px;
+  margin-left:540px;
+  color: #ffffff;
+   display: inline-block;
+
+
+}
+
+/*===============================footer============================================*/
